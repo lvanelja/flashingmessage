@@ -1,0 +1,21 @@
+{
+    "name": "lova/flashingmessage",    
+    "type": "library",
+    "description": "Flash class using sessions",
+    "keywords": ["lova", "flash", "messages", "information"],
+    "homepage": "http://dbwebb.se/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Louise Vanélja",
+            "email": "louise.vanelja0002@stud.hkr.se",
+            "homepage": "http://dbwebb.se",
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": { "Mos\\": "src/" }
+    }
+}
