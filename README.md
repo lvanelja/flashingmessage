@@ -3,7 +3,7 @@ CFlashingMessage a flash class for showing different informative messages.
 
 How to use
 
-1. Download
+Download
 
 The easiest way is to install the module using composer. Add to your composer.json:
 
@@ -14,7 +14,7 @@ And the run composer install.
 
 You can also download the zip file from here.
 
-2. Include it in your project.
+Include it in your project.
 
 
 License
