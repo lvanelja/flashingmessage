@@ -9,7 +9,7 @@ The easiest way is to install the module using composer. Add to your composer.js
 
     "require": {
     "lova/flashingmessage": "dev-master"
-},
+    },
 
 
 And then run composer install.
@@ -23,7 +23,7 @@ To include flashingmessage in your project add the class in your frontcontroller
     $di->setShared('flash', function() { 
     $flash = new \lova\CFlashingMessage\CFlashingMessage(); 
     return $flash; 
-});
+    });
 
 Here's an example of how to use add a message:
 
