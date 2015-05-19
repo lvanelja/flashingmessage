@@ -8,9 +8,9 @@ How to use
 The easiest way is to install the module using composer. Add to your composer.json:
 
 "require": {
-    "lova/flashingmessages": "dev-master"
+    "lova/flashingmessage": "dev-master"
 },
-And the run composer install.
+And then run composer install.
 
 You can also download the zip file from here.
 
