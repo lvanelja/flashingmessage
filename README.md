@@ -8,7 +8,7 @@ How to use
 The easiest way is to install the module using composer. Add to your composer.json:
 
 "require": {
-    "pbjuhr/flashmessages": "dev-master"
+    "lova/flashingmessages": "dev-master"
 },
 And the run composer install.
 
