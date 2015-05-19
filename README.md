@@ -16,6 +16,18 @@ You can also download the zip file from here.
 
 2.Include it in your project.
 
+To include flashingmessage in your project add the class in your frontcontroller:
+
+$di->setShared('flash', function() { 
+    $flash = new \lova\CFlashingMessage\CFlashingMessage(); 
+    return $flash; 
+});
+
+Here's an example of how to use add a message:
+
+    $app->flash->message('success', 'This message tells you your action was succesful'); 
+
+
 
 License
 ----------------------------------
